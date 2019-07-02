@@ -1,6 +1,7 @@
 # BenefitMany Snippet README
 
-Stuff
+Followed this example:
+https://dev.to/azure/vs-code---publish-your-snippet-extension-4cf9
 
 ## Features
 
