@@ -15,6 +15,10 @@
         "Vue 2",
         "Vue Snippets"
     ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/BenefitMany/vscode-snippets"
+    },
     "extensionDependencies": [
         "octref.vetur"
     ],
