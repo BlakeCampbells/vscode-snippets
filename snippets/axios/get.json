@@ -1,0 +1,13 @@
+{
+  "Axios List": {
+    "prefix": "bmAxiosGet",
+    "body": [
+      "this.\\$http.get('/api/${1:endpoint}').then((result) => {",
+      "  this.${2:result} = result.body.${2:result}",
+      "}, (responseError) => {",
+      "  this.appendError({error: responseError.body.error})",
+      "})"
+    ],
+    "description": "Axios List"
+  }
+}

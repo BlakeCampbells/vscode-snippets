@@ -1,0 +1,13 @@
+{
+  "Axios Post": {
+    "prefix": "bmAxiosPost",
+    "body": [
+      "this.\\$http.post('/api/${1:endpoint}', this.formData()).then(() => {",
+      "  // DO SOMETHING",
+      "}, (responseError) => {",
+      "  this.appendError({error: responseError.body.error, formData: this.formData() })",
+      "})"
+    ],
+    "description": "Axios Post"
+  }
+}

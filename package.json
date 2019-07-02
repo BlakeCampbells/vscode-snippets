@@ -1,0 +1,105 @@
+{
+    "name": "bm",
+    "displayName": "benefitmany-snippets",
+    "description": "BenefitMany Snippet Collection for Vue 2.0",
+    "publisher": "BenefitMany",
+    "version": "0.0.2",
+    "engines": {
+        "vscode": "^1.35.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "keywords": [
+        "Vue",
+        "Vue 2",
+        "Vue Snippets"
+    ],
+    "extensionDependencies": [
+        "octref.vetur"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "vue",
+                "path": "./snippets/vue/props.json"
+            },
+            {
+                "language": "html",
+                "path": "./snippets/vue/props.json"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/vue/props.json"
+            },
+            {
+                "language": "vue-html",
+                "path": "./snippets/vue/props.json"
+            },
+            {
+                "language": "vue",
+                "path": "./snippets/axios/get.json"
+            },
+            {
+                "language": "html",
+                "path": "./snippets/axios/get.json"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/axios/get.json"
+            },
+            {
+                "language": "vue-html",
+                "path": "./snippets/axios/get.json"
+            },
+            {
+                "language": "vue",
+                "path": "./snippets/axios/post.json"
+            },
+            {
+                "language": "html",
+                "path": "./snippets/axios/post.json"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/axios/post.json"
+            },
+            {
+                "language": "vue-html",
+                "path": "./snippets/axios/post.json"
+            },
+            {
+                "language": "vue",
+                "path": "./snippets/axios/put.json"
+            },
+            {
+                "language": "html",
+                "path": "./snippets/axios/put.json"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/axios/put.json"
+            },
+            {
+                "language": "vue-html",
+                "path": "./snippets/axios/put.json"
+            },
+            {
+                "language": "vue",
+                "path": "./snippets/common_table/file.json"
+            },
+            {
+                "language": "html",
+                "path": "./snippets/common_table/file.json"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/common_table/file.json"
+            },
+            {
+                "language": "vue-html",
+                "path": "./snippets/common_table/file.json"
+            }
+        ]
+    }
+}

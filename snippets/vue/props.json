@@ -1,0 +1,23 @@
+{
+  "Examples of each Vue Prop Type": {
+		"prefix": "bmVuePropExamples",
+		"body": [
+			"    propBoolean: { default: true, type: Boolean},",
+			"    propString: { default: 'New', type: String },",
+			"    propArray: {",
+			"      default: () => [],",
+			"      type: Array",
+			"    },",
+			"    propFunction: { default () { return true }, type: Function },",
+			"    propObject: {",
+			"      type: Object,",
+			"      default () {",
+			"        return {",
+			"          propObjectAttribute: ''",
+			"        }",
+			"      }",
+			"    }"
+		],
+		"description": "Examples of each Vue Prop Type"
+  }
+}

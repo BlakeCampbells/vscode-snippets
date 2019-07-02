@@ -1,0 +1,13 @@
+{
+  "Axios Put": {
+    "prefix": "bmAxiosPut",
+    "body": [
+      "this.\\$http.put(`/api/${1:endpoint}/${2:something.id}`, this.formData()).then(() => {",
+      "  // Do Something",
+      "}, (responseError) => {",
+      "  this.appendError({error: responseError.body.error, formData: this.formData()})",
+      "})"
+    ],
+    "description": "Axios Put"
+  }
+}
